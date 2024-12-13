@@ -25,9 +25,9 @@ public class Day10
         TryToWalk(x, y+1, grid[x][y], grid, multiPathEnable);
     }
 
-        public void Step1()
-        {
-            var input = _inputFiles.ReadInputFileForDay(10, false);
+    public void Step1()
+    {
+        var input = _inputFiles.ReadInputFileForDay(10, false);
         var inputList = _inputFiles.SplitString(input);
         
         var grid = new List<List<int>>();
